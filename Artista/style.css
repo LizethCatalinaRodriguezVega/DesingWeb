@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300;1,400&display=swap');
+body{
+	background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#21b4e2+5,21b4e2+5,132893+32,132893+32,132893+33,132893+33,132893+57,132893+57,21b4e2+74,132893+83 */
+    background: #21b4e2; /* Old browsers */
+    background: -moz-linear-gradient(top,  #21b4e2 5%, #21b4e2 5%, #132893 32%, #132893 32%, #132893 33%, #132893 33%, #132893 57%, #132893 57%, #21b4e2 74%, #132893 83%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #21b4e2 5%,#21b4e2 5%,#132893 32%,#132893 32%,#132893 33%,#132893 33%,#132893 57%,#132893 57%,#21b4e2 74%,#132893 83%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #21b4e2 5%,#21b4e2 5%,#132893 32%,#132893 32%,#132893 33%,#132893 33%,#132893 57%,#132893 57%,#21b4e2 74%,#132893 83%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21b4e2', endColorstr='#132893',GradientType=0 ); /* IE6-9 */
+;
+	padding: 5vw
+}
+h1{ 
+	color: #FFFFFF;
+	font-size:3vw;
+	font-family: 'Sacramento';
+	text-align: left;
+	margin-top: 8vw;
+}
+h2{ 
+	color: #FFFFFF;
+	font-family: 'Sacramento';
+	text-align: left;
+	font-size: 3vw;
+	margin-top: 8vw;
+}
+p{
+	color: #FFFFFF;
+	font-family: 'Raleway';
+	font-size: 2vw;
+	text-align: justify;
+ }
+ul{
+	color: #FFFFFF;
+	font-family: 'Raleway';
+	font-size: 2vw;
+
+}
+table{
+	font-family: 'Raleway';
+	color: #FFFFFF;
+	font-size: 2vw;
+	border-collapse: collapse;
+	width: 100%;
+}
+th,td{
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid black;
+}
+tr:hover{
+	background-color: rgb(30,206,206);
+}
