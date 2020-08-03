@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora de Notas</title>
+	<meta charset="utf-8">
+	<meta name="view-port" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./css/Style.css">
+</head>
+<body>
+<div>
+	<input type="text" name="NombresyApellidos" id="NombresyApellidos" placeholder="Digite Nombres y Apellidos">
+	<br>
+	<input type="number" name="Calificación1" id="Calificacion1" placeholder="Calificación 1">
+	<input type="number" name="Calificación2" id="Calificacion2" placeholder="Calificación 2">
+	<input type="number" name="Calificación3" id="Calificacion3" placeholder="Calificación 3">
+	<br>
+	<button onclick="AgregarEstudiante()">Agregar Estudiante</button>
+</div>
+<br>
+
+<div class="card">
+	<table border="1px" id="TablaEstudiantes">
+		<thead>
+			<tr>
+				<th>Estudiante</th>
+				<th>Calificación 1</th>
+				<th>Calificación 2</th>
+				<th>Calificación 3</th>
+				<th>Nota Final</th>
+				<th>Estado</th>
+			</tr>
+		</thead>
+		<tbody>
+			
+
+		</tbody>
+	</table>
+	<label id="LabelAprobados">Estudiantes Aprobados: 0</label>
+	<br>
+	<label id="LabelReprobados">Estudiantes Reprobados: 0</label>
+	<br>
+	<label id="TotalEstudiantes">Total de estudiantes: 0</label>
+</div>
+
+<script type="text/javascript" src="./js/estilo.js"></script>
+
+</body>
+</html>
