@@ -1,0 +1,42 @@
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+.gris-claro{
+	background-color: #ececec;
+}
+body{
+	background-color:/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6db3f2+0,1fd9e0+18,077bef+31,1fd9e0+42,54a3ee+60,1fd9e0+74,54a3ee+85,54a3ee+85 */
+background: #6db3f2; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #6db3f2 0%, #1fd9e0 18%, #077bef 31%, #1fd9e0 42%, #54a3ee 60%, #1fd9e0 74%, #54a3ee 85%, #54a3ee 85%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #6db3f2 0%,#1fd9e0 18%,#077bef 31%,#1fd9e0 42%,#54a3ee 60%,#1fd9e0 74%,#54a3ee 85%,#54a3ee 85%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #6db3f2 0%,#1fd9e0 18%,#077bef 31%,#1fd9e0 42%,#54a3ee 60%,#1fd9e0 74%,#54a3ee 85%,#54a3ee 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#54a3ee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+nav{
+	color: black !important;
+	background-color:/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6db3f2+0,1fd9e0+18,077bef+31,1fd9e0+42,54a3ee+60,1fd9e0+74,54a3ee+85,54a3ee+85 */
+background: #6db3f2; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #6db3f2 0%, #1fd9e0 18%, #077bef 31%, #1fd9e0 42%, #54a3ee 60%, #1fd9e0 74%, #54a3ee 85%, #54a3ee 85%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #6db3f2 0%,#1fd9e0 18%,#077bef 31%,#1fd9e0 42%,#54a3ee 60%,#1fd9e0 74%,#54a3ee 85%,#54a3ee 85%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #6db3f2 0%,#1fd9e0 18%,#077bef 31%,#1fd9e0 42%,#54a3ee 60%,#1fd9e0 74%,#54a3ee 85%,#54a3ee 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#54a3ee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+footer{
+	color: white;
+	padding: 32px;
+}
+.iconos a{
+	color: white;
+	margin: 5px;
+}
+section{
+	padding: 50px;
+}
+a{
+	color: black !important;
+}
+
+
