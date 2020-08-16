@@ -1,0 +1,225 @@
+
+body{/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e6b7ed+0,dc71ef+50,bf22e2+52,e6b7ed+100 */
+background: rgb(230,183,237); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(230,183,237,1) 0%, rgba(220,113,239,1) 50%, rgba(191,34,226,1) 52%, rgba(230,183,237,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(230,183,237,1) 0%,rgba(220,113,239,1) 50%,rgba(191,34,226,1) 52%,rgba(230,183,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(230,183,237,1) 0%,rgba(220,113,239,1) 50%,rgba(191,34,226,1) 52%,rgba(230,183,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6b7ed', endColorstr='#e6b7ed',GradientType=1 ); /* IE6-9 */
+
+
+}
+	
+
+.contenedor{
+	width: 90%;
+	max-width: 800px;
+	margin:auto;
+}
+
+/*-----------*/
+/*HEADER*/
+/*-----------*/
+header{
+	padding: 40px 0;
+}
+
+header{
+	text-align: center;
+	margin-bottom: 40px;
+}
+header form{
+	width: 100%;
+	display:flex;
+	justify-content: center;
+	margin-bottom: 20px
+
+}
+
+header .logo p{
+	color: black;
+}
+
+header .barra-busqueda{
+	width: 90%
+	height: 40px;
+	line-height: 40px;
+	background-color: white;
+	padding: 0 20px;
+	border-radius: none;
+	text-align: center;
+	font-size: 16px;
+
+}
+
+header .categorias{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+header .categorias a{
+	color: gray;
+	margin: 10px 20px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+header .categorias a.activo{
+	color: black;
+}
+
+/*---------------*/
+/*Grid*/
+/*---------------*/
+
+.grid {
+	position: relative;
+	width: 100%;
+	opacity: 0;
+	transition: opacity 0.5s linear 1s;
+
+}
+
+.grid.imagenes-cargadas{
+	opacity: 1;
+}
+
+.grid .item {
+	position: absolute;
+	display: block;
+	padding: 0;
+	margin: 10px;
+	width: calc(33.3333333% - 20px);
+}
+
+.grid .item-contenido{
+	position: relative;
+}
+
+
+.grid .item img{
+	width: 100%;
+	cursor: pointer;
+	vertical-align: top;
+}
+
+
+/*---------------*/
+/*Overlay*/
+/*---------------*/
+
+.overlay{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.9);
+	width: 100%;
+	height: 100vh;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.overlay.activo{
+	display: flex;
+}
+
+.overlay img{
+	max-width: 100%;
+}
+
+.overlay .descripcion{
+	display: block;
+	background: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 5px;
+	border-radius: 10px;
+	max-width: 50%;
+}
+.contenedor-img {
+	position: relative;
+}
+
+.overlay #btn-cerrar-popup {
+	background: none;
+	font-size: 20px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	right: -20px;
+	top: -20px;
+}
+
+/* ------------------------- */
+/* Footer */
+/* ------------------------- */
+footer .redes-sociales {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 20px;
+	flex-wrap: wrap;
+}
+
+footer .redes-sociales a {
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: #000;
+	color: #fff;
+	margin: 20px;
+	text-align: center;
+	border-radius: 100px;
+	transition: .3s ease all;
+}
+
+footer .redes-sociales .twitter {background: #1da1f2;}
+footer .redes-sociales .facebook {background: #3b5998;}
+footer .redes-sociales .instagram {background: #c13584;}
+
+footer .redes-sociales a i {
+	font-size: 20px;
+	line-height: 60px;
+}
+
+footer .contenedor-icono:hover a {
+	animation: icono .5s ease;
+}
+
+@keyframes icono {
+	from {
+		transform: rotate3d(0,0,0,0);
+	}
+	to {
+		transform: rotate3d(0,1,0, 360deg);
+	}
+}
+
+footer .creado-por {
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+}
+
+footer .creado-por a {color: #000;}
+footer .creado-por a:hover {text-decoration: underline;}
+
+/* ------------------------- */
+/* Mediaqueries */
+/* ------------------------- */
+@media screen and (max-width: 700px) {
+	.grid .item {
+		width: calc(50% - 20px);
+	}
+
+	header .barra-busqueda {
+		width: 100%;
+	}
+}
